@@ -1,0 +1,78 @@
+.teacher-lesson-rev-cont {
+  //   position: relative;
+  direction: rtl;
+  .grey-div {
+    position: fixed;
+    height: 100vh;
+    width: 100vw;
+    background-color: rgba(67, 67, 67, 0.502);
+    top: 0%;
+    left: 0%;
+    overflow: hidden;
+  }
+
+  .teacher-lesson-rev {
+    background-color: white;
+    border-radius: 20px;
+    width: 50%;
+    height: auto;
+    z-index: 10;
+    position: fixed;
+    top: 0;
+    left: 50%;
+    padding: 30px;
+    transform: translate(-50%, 50%);
+
+    .text-area {
+      margin-bottom: 0.5rem;
+      height: auto;
+      border-radius: 50px;
+      border-color: transparent;
+      width: 100%;
+      background-color: rgba(232, 240, 248, 0.891);
+      padding: 20px;
+      font-family: 'Source Sans Pro', sans-serif;
+    }
+    .teacher-rate {
+      direction: rtl;
+      display: flex;
+      justify-content: space-between;
+    }
+    .add-teacher-rev-btn {
+      width: 2rem;
+      height: 2rem;
+      line-height: 2rem;
+      border-radius: 50%;
+      border: none;
+      background-color: rgb(158, 184, 242);
+      color: white;
+      text-align: center;
+      position: relative;
+      right: 0;
+      bottom: 0;
+      margin-bottom: 20px;
+    }
+    .add-teache-rev-btn {
+      display: block;
+      text-align: center;
+      margin: 1rem auto;
+      width: 30%;
+      border-radius: 20px;
+      border: none;
+      height: 35px;
+      background-color: #550080;
+      color: rgb(255, 255, 255);
+      font-size: 1.5rem;
+      cursor: pointer;
+    }
+  }
+}
+
+@media (max-width: $break-small) {
+  .add-lesson-form-cont {
+    .add-lesson-form {
+      width: 90%;
+      height: fit-content;
+    }
+  }
+}

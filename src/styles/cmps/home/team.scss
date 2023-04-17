@@ -1,0 +1,75 @@
+.manager-cont {
+  width: 100%;
+  text-align: center;
+  margin-top: 10%;
+  margin-bottom: 10%;
+  .title {
+    color: $clr5;
+  }
+
+  .manager-wrapper {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 40px;
+
+    .manager-card {
+      width: 30%;
+      padding: 16px 10px 10px 10px;
+
+      .manager-img {
+        position: relative;
+        width: 45%;
+        border-radius: 50%;
+        margin-bottom: 10px;
+      }
+
+      .author-name {
+        font-size: 18px;
+        color: #4945a0;
+        font-weight: bold;
+        margin-bottom: 0.5rem;
+      }
+
+      .quote-container {
+        display: flex;
+        gap: 0.2rem;
+
+        .quote-svg-end {
+          height: 4rem;
+          width: 4rem;
+          align-self: flex-end;
+          transform: rotate(180deg);
+        }
+        .quote-svg-start {
+          height: 4rem;
+          width: 4rem;
+          align-self: flex-start;
+          position: relative;
+          top: 50%;
+          transform: translateY(-50%);
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .manager-cont {
+    margin-top: 20vh;
+
+    .manager-wrapper {
+      display: block;
+      margin-top: 40px;
+
+      .manager-card {
+        width: 100%;
+        margin-bottom: 40px;
+
+        .manager-img {
+          border-width: 12px;
+        }
+      }
+    }
+  }
+}

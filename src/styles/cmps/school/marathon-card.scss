@@ -1,0 +1,41 @@
+
+.done {
+    border: none;
+    border-radius: 50%;
+    background-color: rgb(229, 228, 228);
+}
+.doneC {
+    background-color: (164, 163, 163);
+}
+
+h1,
+p {
+    text-align: center;
+}
+
+.blank-background {
+    position: absolute;
+    height: fit-content;
+    padding: 2rem;
+    width: 50%;
+    background-color: rgb(255, 255, 255);
+    z-index: 10;
+
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.student-item:hover {
+    transform: scale(1.05);
+    transition: all ease 0.3s;
+    z-index: 1;
+}
+
+@media (max-width: $break-small) {
+    .blank-background {
+        width: 90%;
+    }
+    .form-btn{
+        margin-bottom: 0;
+    }
+}

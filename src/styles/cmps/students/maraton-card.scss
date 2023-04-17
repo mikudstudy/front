@@ -1,0 +1,96 @@
+
+.student-item {
+  // border: 5px solid black;
+  width: auto;
+  background-color: rgb(255, 255, 255);
+  // background-color: $clr3;//if marathon done and send record of it
+  border-radius: 20px;
+  padding: 10px;
+  margin-left: 2%;
+  margin-right: 3%;
+  margin-bottom: 20px;
+
+  .student-item-info {
+    h3 {
+      margin: 10px;
+    }
+    h4 {
+      margin: 10px;
+    }
+   
+  }
+  .date-teacher {
+    h4 {
+      margin: 10px;
+      // font-family: gezer;
+    }
+  }
+  .student-btn {
+    border: none;
+    background-color: $clr5;
+    color: rgb(255, 255, 255);
+    width: 100%;
+    border-radius: 15px;
+    padding: 10px;
+    font-size: 1rem;
+    align-items: center;
+    cursor: pointer;
+    position: relative;
+    bottom: 0;
+  }
+  .doneB {
+    border: none;
+    color: rgb(255, 255, 255);
+    width: 100%;
+    border-radius: 15px;
+    padding: 10px;
+    font-size: 1rem;
+    align-items: center;
+    cursor: pointer;
+    background-color: rgb(107, 104, 104);
+  }
+}
+.form-btn {
+  display: block;
+  text-align: center;
+  margin: 1rem auto;
+  width: 30%;
+  border-radius: 20px;
+  border: none;
+  height: 35px;
+  background-color: $clr5;
+  color: rgb(255, 255, 255);
+  font-size: 1.5rem;
+  cursor: pointer;
+  position: relative;
+  bottom: -50%;
+}
+.form-btn:hover {
+  background-color: $clr1;
+}
+.only-galery-cards {
+  width: 100%;
+  margin-left: 0;
+  margin-right: 1%;
+}
+
+.container {
+  border: solid 2px $clr4;
+  padding: 2rem;
+
+
+  .register-btn {
+    display: block;
+    border: none;
+    background-color: $clr5;
+    color: rgb(255, 255, 255);
+    width: 100%;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 1.5rem;
+    align-items: center;
+    text-align: center;
+    cursor: pointer;
+    margin-top: 5rem;
+  }
+}

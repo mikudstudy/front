@@ -1,0 +1,39 @@
+.admin{
+
+    .title-prf {
+        margin-top: 2%;
+        text-align: center;
+        font-size: 30px;
+        color: #393939;
+    }
+
+    .dash-table {
+        background-color: rgba(255, 255, 255, 0.891);
+        padding: 25px;
+        border: 0.5px solid rgb(207, 207, 207);
+        border-radius: 3px;
+        height: fit-content;
+        position: relative;
+        .add-lesson-btn {
+        width: 2rem;
+        height: 2rem;
+        line-height: 2rem;
+        border-radius: 50%;
+        border: none;
+        background-color: $clr11;
+        color: white;
+        text-align: center;
+        position: relative;
+        right: 0;
+        bottom: 0;
+        }
+        .add-lesson-btn:hover {
+            box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+            cursor: pointer;
+        }
+    }
+
+    .dash-tables-cont{
+        width: 100%;
+    }
+}

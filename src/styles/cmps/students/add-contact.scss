@@ -1,0 +1,66 @@
+.add-contact-maraton-title {
+  text-align: center;
+  color: $clr5;
+  margin-top: 3rem;
+  font-size: 2rem;
+  span {
+    font-family: gezer;
+  }
+}
+  
+.add-maraton-cont {
+  background-color: $clr12;
+  padding: 20px;
+  border-radius: 20px;
+  width: 60%;
+  text-align: center;
+  margin: auto;
+  margin-bottom: 50px;
+
+  .input-cont {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    input {
+      width: 98%;
+      margin-top: 2%;
+      background-color: aliceblue;
+      border-radius: 20px;
+      border: none;
+      height: 30px;
+      padding-right: 10px;
+    }
+    input.right {
+      margin-left: 2%;
+    }
+    input.left {
+      margin-right: 2%;
+    }
+  }
+  .add-maraton-btn {
+    margin-top: 2%;
+    width: 100%;
+    border-radius: 20px;
+    border: none;
+    height: 30px;
+    background-color: $clr5;
+    color: rgb(255, 255, 255);
+    font-family: gezer;
+    font-size: 1.5rem;
+  }
+
+}
+@media (max-width: $break-small) {
+
+  .add-contact-maraton-title{
+    span{
+      line-height: 3rem;
+    }
+  }
+  .add-maraton-cont{
+    margin: 0;
+    width: 100%;
+    margin-bottom: 50px;
+  }
+}
+  

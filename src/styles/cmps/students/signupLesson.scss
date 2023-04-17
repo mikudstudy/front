@@ -1,0 +1,55 @@
+.formLesson{
+    background-color: $clr12;
+    margin-bottom: 3rem;
+    border-radius: 50px;
+    padding: 2rem ;
+    
+    .el-step__title{
+        text-align: right;
+    }
+    .el-step__description{
+        margin-top: 1rem ;
+        text-align: center;
+        padding: 0;
+    }
+
+    .choiceNext{
+        background-color: whitesmoke;
+        border-radius: 50px;
+        width: 50%;
+        height: 1.5rem;
+        text-align: center;
+        margin: 1rem auto;
+    }
+    .ok{
+        background-color: whitesmoke;
+        border-radius: 50px;
+        width: 50%;
+        height: 1.5rem;
+        text-align: center;
+        margin: 1rem 25%;
+        border-color: transparent;
+    }
+    .el-input{
+        width: 50%;
+        margin-bottom: 1rem;
+    }
+    .el-input__wrapper{
+        border-radius: 50px;
+    }
+    
+    @media (max-width: $break-small) {
+        .choiceNext{
+            width: 100%;
+            
+        }
+        .ok{
+            margin: 1rem auto;
+            width: 100%;
+        }
+        .el-input{
+            width: 100%;
+        }
+    }
+
+}

@@ -1,0 +1,54 @@
+//setup
+@import 'setup/variables.scss';
+@import 'setup/typography.scss';
+
+// basics
+@import 'basics/helpers.scss';
+@import 'basics/base.scss';
+
+// components
+@import 'cmps/header.scss';
+@import 'cmps/login.scss';
+@import 'cmps/signup.scss';
+@import 'cmps/footer.scss';
+
+@import 'cmps/home/open.scss';
+@import 'cmps/home/offers.scss';
+@import 'cmps/home/aboutUs.scss';
+@import 'cmps/home/learningTypes.scss';
+@import 'cmps/home/reviews.scss';
+@import 'cmps/home/contact.scss';
+@import 'cmps/home/ourWays.scss';
+@import 'cmps/home/data.scss';
+@import 'cmps/home/timeline.scss';
+@import 'cmps/home/team.scss';
+
+@import 'cmps/dashboard/teacher-table.scss';
+@import 'cmps/dashboard/table.scss';
+@import 'cmps/dashboard/data-area.scss';
+@import 'cmps/dashboard/add-lesson-form.scss';
+@import 'cmps/dashboard/student-lesson-rev.scss';
+@import 'cmps/dashboard/teacher-lesson-rev.scss';
+@import 'cmps/dashboard/user-info.scss';
+@import 'cmps/dashboard/user-info-mobile.scss';
+
+@import 'cmps/dashboard/student-evaluation.scss';
+
+@import 'cmps/dashboard/adminDashboard.scss';
+
+@import 'cmps/students/signupLesson.scss';
+@import 'cmps/students/maraton-card.scss';
+@import 'cmps/students/mobile-header.scss';
+@import 'cmps/students/add-contact.scss';
+
+@import 'cmps/school/school-open.scss';
+@import 'cmps/school/marathon-card.scss';
+
+// views
+@import 'views/home.scss';
+@import 'views/contact-us.scss';
+@import 'views/students.scss';
+@import 'views/profile.scss';
+@import 'views/user-dashboard.scss';
+
+// ICONS

@@ -1,0 +1,128 @@
+.home-open {
+  height: 70vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  .home-svg {
+    width: 45%;
+    transform: scaleX(-1);
+  }
+  .home-txt {
+    padding: 0;
+    width: 45%;
+    text-align: right;
+    direction: rtl;
+
+    .title3 {
+      font-size: 2.05rem;
+      color: $clr1;
+      line-height: 2.5rem;
+      margin-bottom: 40px;
+      width: 60%;
+      span {
+        color: $clr5;
+        font-family: gezer;
+      }
+    }
+    .title2 {
+      font-size: 1rem;
+      color: $clr8;
+      line-height: 2rem;
+      margin-bottom: 40px;
+    }
+  }
+}
+
+.grey-div {
+  position: absolute;
+  height: 116%;
+  width: 100%;
+  background-color: rgba(67, 67, 67, 0.502);
+  top: 0;
+  left: 0;
+  z-index: 2;
+}
+
+.lesson-register {
+  z-index: 3;
+  direction: rtl;
+  width: 50%;
+  height: fit-content;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  position: absolute;
+  background-color: white;
+  top: 1.5%;
+  right: 25%;
+  left: 25%;
+  padding: 3rem;
+  animation-name: slide-scale;
+  animation-duration: 0.5s;
+  .form-btn {
+    display: block;
+    margin: 0 auto;
+    width: 30%;
+    border-radius: 20px;
+    border: none;
+    height: 35px;
+    background-color: $clr5;
+    color: rgb(255, 255, 255);
+    font-size: 1.5rem;
+    cursor: pointer;
+    position: relative;
+    bottom: -50%;
+  }
+  .form-btn:hover {
+    background-color: $clr1;
+  }
+}
+.bi {
+  height: 1.5rem;
+  width: 1.5rem;
+  margin-right: 0.5rem;
+}
+
+@media (max-width: $break-small) {
+  .home-open {
+    height: auto;
+    flex-direction: column-reverse;
+    padding-top: 5rem;
+    position: relative;
+    padding-bottom: 0vh;
+
+    .home-txt {
+      width: 80%;
+      z-index: 1;
+      padding-top: 5vh;
+      .open-btns-cont {
+
+        .btn {
+          padding: 5px;
+          font-size: 1rem;
+        }
+      }
+
+      .title2 {
+        font-size: 1rem;
+        line-height: 2rem;
+      }
+      .title3 {
+        width: 100%;
+        font-size: 2rem;
+      }
+    }
+    .home-svg {
+      width: 100%;
+      top: 30vh;
+    }
+
+    .lesson-register {
+      width: 90%;
+      top: 13%;
+      right: 0%;
+      left: 5%;
+      border-radius: 50px;
+    }
+  }
+}

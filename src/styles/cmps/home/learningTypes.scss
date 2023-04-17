@@ -1,0 +1,95 @@
+.learning-types {
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 150px;
+  border-radius: 40px;
+
+  padding-top: 5rem;
+  padding-bottom: 1rem;
+  position: relative;
+
+  h1,
+  h6,
+  h3 {
+    padding: 0;
+    margin: 5px;
+  }
+
+  .learning-titles {
+    padding: 2%;
+    top: 0;
+    margin-bottom: 50px;
+    direction: rtl;
+
+    h1 {
+      color: $clr5;
+      font-size: 3rem;
+      line-height: 3rem;
+      font-family: gezer;
+    }
+
+    .sub-title {
+      font-family: gezer;
+      color: $clr5;
+      font-size: 2rem;
+      margin-top: 20px;
+    }
+  }
+
+  .learning-items {
+    width: 100%; 
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+
+    .learning-item {
+      width: 32%;
+      margin-left: 1rem;
+      margin-right: 1rem;
+      text-align: end;
+      background-color: rgb(255, 255, 255);
+      border-radius: 20px;
+      color: $clr1;
+      box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+
+      img {
+        width: 100%;
+        height: auto;
+        box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+        clip-path: polygon(0 0, 100% 0%, 100% 100%, 0 91%);
+        border-radius: 20px 20px 0 0;
+      }
+
+      .learning-item-info {
+        padding: 10px;
+        color: $clr4;
+
+        h3 {
+          font-family: gezer;
+          font-weight: 900;
+          color: $clr5;
+        }
+      }
+    }
+    .learning-item {
+      width: 90%;
+    }
+  }
+
+  @media (max-width: $break-small) {
+    margin-bottom: 0;
+    padding-bottom: 10vh;
+    .learning-titles {
+      margin-bottom: 0px;
+    }
+    .learning-items {
+      display: block;
+      margin-bottom: 0;
+
+      .learning-item {
+        width: 92%;
+        margin-bottom: 2rem;
+      }
+    }
+  }
+}

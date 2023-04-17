@@ -1,0 +1,28 @@
+.student-evaluation-cont {
+  border: 0.5px solid rgb(207, 207, 207);
+  background-color: rgb(255, 255, 255);
+  width: 100%;
+  height: fit-content;
+  align-items: baseline;
+  padding: 30px;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  direction: rtl;
+  position: relative;
+
+  .quote-svg-start {
+    width: 5%;
+  }
+  .quote-svg-end {
+    width: 5%;
+    // align-self: flex-end;
+    transform: rotate(180deg);
+    position: relative;
+    left: 0;
+    bottom: 0;
+    // align-self: ;
+    // float: left;
+    // padding-top: 30px;
+    display: block;
+  }
+}

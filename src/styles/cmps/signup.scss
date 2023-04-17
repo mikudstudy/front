@@ -1,0 +1,48 @@
+.signup-cont {
+    .close{
+        background-color: transparent;
+        color: $clr5;
+        text-align: right;
+        width: 100%;
+        margin-top: -2rem;
+        cursor: pointer;
+    }
+    .el-step__title{
+        text-align: right;    
+    }
+    .el-step__description 
+    {       
+        margin-top: 1rem;
+        font-size: larger;
+        text-align: center;
+        padding: 0;
+    }
+
+    .el-steps--horizontal{
+        text-align: right;    
+    }
+
+    .el-input__wrapper{
+        margin-right: 5px;
+        height: 2rem;
+        border-radius: 50px;
+        border-color: transparent;
+        background-color: rgba(232, 240, 248, 0.891);
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+    .el-select{
+        width: 91%;
+    }
+   
+}
+
+@media (max-width: $break-small) {
+    .signup-cont{
+      margin-top: 5rem;
+      width: 80%;
+    }
+    .koteret{
+        line-height: 1.5rem;
+    }
+  }
