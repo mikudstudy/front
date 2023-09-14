@@ -1,21 +1,21 @@
 <template>
   <!--   <loadingPage v-if="isLoading"></loadingPage> -->
-  <section class="f">
-    <mobileHeader></mobileHeader>
-    <RouterLink class="logo" to="/">
+  <!-- <section class="f"> -->
+    <!-- <mobileHeader></mobileHeader> -->
+    <!-- <RouterLink class="logo" to="/"> -->
       <!-- <img
         class="logo"
         src="../src/styles/imgs/logo.png"
         alt=""
         :class="{ logoActive: scrolled && $route.path !== '/' }"
       /> -->
-    </RouterLink>
-    <appHeader> </appHeader>
+    <!-- </RouterLink> -->
+    <!-- <appHeader> </appHeader> -->
 
     <RouterView />
-    <appContact v-if="scrolled" @close-modal="closeContactModal"></appContact>
-  </section>
-  <app-footer v-if="!isLoading"></app-footer>
+    <!-- <appContact v-if="scrolled" @close-modal="closeContactModal"></appContact> -->
+  <!-- </section> -->
+  <!-- <app-footer v-if="!isLoading"></app-footer> -->
 </template>
 
 <script>
@@ -70,34 +70,3 @@ export default {
   },
 }
 </script>
-<style>
-.f {
-  position: relative;
-}
-.logo {
-  position: fixed;
-  top: 0;
-  right: 0;
-}
-
-.logoActive {
-  opacity: 0.5;
-}
-
-.display-contact {
-  /* display: block; */
-  opacity: 1;
-}
-
-.dont-display-contact {
-  /* display: none; */
-  opacity: 0;
-}
-
-@media (max-width: 768px) {
-  .logo {
-    display: none;
-    /* opacity: 0; */
-  }
-}
-</style>

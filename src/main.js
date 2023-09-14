@@ -12,7 +12,7 @@ import MotionPathPlugin from "gsap/MotionPathPlugin";
 gsap.registerPlugin(ScrollTrigger);
 gsap.registerPlugin(MotionPathPlugin);
 
-import "./styles/styles.scss";
+// import "./styles/styles.scss";
 
 const app = createApp(App);
 
