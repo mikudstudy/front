@@ -16,6 +16,11 @@ const router = createRouter({
       name: 'home',
       component: landingPage,
     },
+      {
+      path: '/landing',
+      name: 'landing',
+      component: landingPage,
+    },
     {
       path: '/pay',
       name: 'pay',
