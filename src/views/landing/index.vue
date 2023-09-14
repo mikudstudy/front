@@ -315,6 +315,30 @@
       </form>
     </div>
   </div>
+  <div class="follow">
+      <div class="container">
+          <div class="follow-main">
+              <div class="follow-left">
+                  <h6>Follow Us On!</h6>
+              </div>
+              <div class="follow-right">
+                  <ul>
+                      <li><a href="javascript:;"><img v-bind:src="'/Landing/images/facebook.png'"></a></li>
+                      <li><a href="javascript:;"><img v-bind:src="'/Landing/images/insta.png'"></a></li>
+                      <li><a href="javascript:;"><img v-bind:src="'/Landing/images/twitter.png'"></a></li>
+                      <li><a href="javascript:;"><img v-bind:src="'/Landing/images/pintrest.png'"></a></li>
+                      <li><a href="javascript:;"><img v-bind:src="'/Landing/images/linked-in.png'"></a></li>
+                      <li><a href="javascript:;"><img v-bind:src="'/Landing/images/youtube.png'"></a></li>
+                  </ul>
+              </div>
+          </div>
+      </div>
+  </div>
+  <div class="footer" style="background-image:url('/Landing/images/footer-back.png');">
+      <div class="container">
+          <h2>Discover a brighter future for your child with Raanana Your partner in academic excellence.</h2>
+      </div>
+  </div>
   <!-- <footer></footer> -->
 </template>
 <script>
