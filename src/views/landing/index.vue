@@ -15,7 +15,7 @@
         </div>
         <div class="col-lg-7 col-md-7 col-sm-12">
           <div class="banner-left">
-            <img v-bind:src="'/public/images/banner-img.png'">
+            <img v-bind:src="'/Landing/images/banner-img.png'">
           </div>
         </div>
       </div>
@@ -62,7 +62,7 @@
           <div class="col-lg-4 col-md-4 col-sm-12">
             <div class="choose-box">
               <div class="icon">
-                <img v-bind:src="'/public/images/choose1.png'">
+                <img v-bind:src="'/Landing/images/choose1.png'">
               </div>
               <div class="choose-dtl">
                 <h6>Comprehensive Subjects</h6>
@@ -75,7 +75,7 @@
           <div class="col-lg-4 col-md-4 col-sm-12">
             <div class="choose-box">
               <div class="icon">
-                <img v-bind:src="'/public/images/choose2.png'">
+                <img v-bind:src="'/Landing/images/choose2.png'">
               </div>
               <div class="choose-dtl">
                 <h6>Expert Educators</h6>
@@ -88,7 +88,7 @@
           <div class="col-lg-4 col-md-4 col-sm-12">
             <div class="choose-box">
               <div class="icon">
-                <img v-bind:src="'/public/images/choose3.png'">
+                <img v-bind:src="'/Landing/images/choose3.png'">
               </div>
               <div class="choose-dtl">
                 <h6>Personalized Approach</h6>
@@ -101,7 +101,7 @@
           <div class="col-lg-4 col-md-4 col-sm-12">
             <div class="choose-box">
               <div class="icon">
-                <img v-bind:src="'/public/images/choose4.png'">
+                <img v-bind:src="'/Landing/images/choose4.png'">
               </div>
               <div class="choose-dtl">
                 <h6>Comprehensive Subjects</h6>
@@ -114,7 +114,7 @@
           <div class="col-lg-4 col-md-4 col-sm-12">
             <div class="choose-box">
               <div class="icon">
-                <img v-bind:src="'/public/images/choose5.png'">
+                <img v-bind:src="'/Landing/images/choose5.png'">
               </div>
               <div class="choose-dtl">
                 <h6>Comprehensive Subjects</h6>
@@ -127,7 +127,7 @@
           <div class="col-lg-4 col-md-4 col-sm-12">
             <div class="choose-box">
               <div class="icon">
-                <img v-bind:src="'/public/images/choose6.png'">
+                <img v-bind:src="'/Landing/images/choose6.png'">
               </div>
               <div class="choose-dtl">
                 <h6>Comprehensive Subjects</h6>
@@ -140,7 +140,7 @@
           <div class="col-lg-4 col-md-4 col-sm-12">
             <div class="choose-box">
               <div class="icon">
-                <img v-bind:src="'/public/images/choose7.png'">
+                <img v-bind:src="'/Landing/images/choose7.png'">
               </div>
               <div class="choose-dtl">
                 <h6>Comprehensive Subjects</h6>
@@ -160,7 +160,7 @@
         <div class="method-start">
           <div class="col-lg-5 col-md-5 col-sm-12">
             <div class="method-img">
-              <img v-bind:src="'/public/images/method-img.png'">
+              <img v-bind:src="'/Landing/images/method-img.png'">
             </div>
           </div>
           <div class="col-lg-7 col-md-7 col-sm-12">
@@ -210,7 +210,7 @@
       <div class="row">
         <div class="col-lg-6 col-md-6 col-sm-12">
           <div class="invest-left">
-            <img v-bind:src="'/public/images/teaching.png'">
+            <img v-bind:src="'/Landing/images/teaching.png'">
           </div>
         </div>
         <div class="col-lg-6 col-md-6 col-sm-12">
@@ -235,7 +235,7 @@
       <div class="testi-slider">
         <div class="test-sl">
           <div class="tet-img">
-            <img v-bind:src="'/public/images/usera.png'">
+            <img v-bind:src="'/Landing/images/usera.png'">
           </div>
           <div class="tet-cont">
             <p>I wanted to thank you for all the help before my match test! You really helped me, the test went well and I
@@ -246,7 +246,7 @@
         </div>
         <div class="test-sl">
           <div class="tet-img">
-            <img v-bind:src="'/public/images/usera.png'">
+            <img v-bind:src="'/Landing/images/usera.png'">
           </div>
           <div class="tet-cont">
             <p>I wanted to thank you for all the help before my match test! You really helped me, the test went well and I
@@ -257,7 +257,7 @@
         </div>
         <div class="test-sl">
           <div class="tet-img">
-            <img v-bind:src="'/public/images/usera.png'">
+            <img v-bind:src="'/Landing/images/usera.png'">
           </div>
           <div class="tet-cont">
             <p>I wanted to thank you for all the help before my match test! You really helped me, the test went well and I
@@ -285,7 +285,7 @@
         </div>
         <div class="col-lg-6 col-md-6 col-sm-12">
           <div class="teachers-right">
-            <img v-bind:src="'/public/images/teacher.png'">
+            <img v-bind:src="'/Landing/images/teacher.png'">
           </div>
         </div>
       </div>

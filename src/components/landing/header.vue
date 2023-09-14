@@ -16,7 +16,7 @@
                   </ul>
               </div>
               <div class="logo">
-                  <img v-bind:src="'images/logo.png'">
+                  <img v-bind:src="'/Landing/images/logo.png'">
               </div>
           </div>
       </div>
