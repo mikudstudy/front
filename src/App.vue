@@ -1,16 +1,16 @@
 <template>
   <!--   <loadingPage v-if="isLoading"></loadingPage> -->
   <section class="f">
-    <mobileHeader></mobileHeader>
-    <RouterLink class="logo" to="/">
+    <!-- <mobileHeader></mobileHeader> -->
+    <!-- <RouterLink class="logo" to="/"> -->
       <!-- <img
         class="logo"
         src="../src/styles/imgs/logo.png"
         alt=""
         :class="{ logoActive: scrolled && $route.path !== '/' }"
       /> -->
-    </RouterLink>
-    <appHeader> </appHeader>
+    <!-- </RouterLink> -->
+    <!-- <appHeader> </appHeader> -->
 
     <RouterView />
     <appContact v-if="scrolled" @close-modal="closeContactModal"></appContact>
