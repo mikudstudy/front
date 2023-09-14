@@ -315,7 +315,7 @@
       </form>
     </div>
   </div>
-  <footer></footer>
+  <!-- <footer></footer> -->
 </template>
 <script>
 import landingHeader from '../../components/landing/header.vue';
