@@ -1,5 +1,6 @@
 import { createRouter, createWebHistory, onBeforeRouteLeave } from 'vue-router'
 import HomeView from '../views/HomeView.vue'
+import landingPage from '../views/HomeView.vue'
 import contactUs from '../views/contactUs.vue'
 import payPage from '../views/payPage.vue'
 import studentsView from '../views/students.vue'
@@ -13,7 +14,7 @@ const router = createRouter({
     {
       path: '/',
       name: 'home',
-      component: HomeView,
+      component: landingPage,
     },
     {
       path: '/pay',
