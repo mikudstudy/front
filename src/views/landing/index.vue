@@ -367,13 +367,6 @@ export default {
     },
   },
 }
-$('.testi-slider').slick({
- dots: false,
- infinite: true,
- autoplay: false,
- autoplaySpeed: 6000,
- speed: 800,
- slidesToShow: 1,
- adaptiveHeight: true
-});
 </script>
+
+
