@@ -367,9 +367,6 @@ export default {
     },
   },
 }
-</script>
-
-<script>
 $('.testi-slider').slick({
  dots: false,
  infinite: true,
@@ -380,5 +377,3 @@ $('.testi-slider').slick({
  adaptiveHeight: true
 });
 </script>
-
-
