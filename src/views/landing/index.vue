@@ -360,13 +360,28 @@ export default {
   async created() {
     await this.$store.dispatch({ type: 'loadLessons' })
   },
-  methods: {},
+  methods: {
+
+  },
+  mounted(){
+    console.log('mount');
+    $('.testi-slider').slick({
+    dots: false,
+    infinite: true,
+    autoplay: false,
+    autoplaySpeed: 6000,
+    speed: 800,
+    slidesToShow: 1,
+    adaptiveHeight: true
+    });
+  },
   computed: {
     user() {
       return this.$store.getters.user
     },
+    
   },
 }
-</script>
+</script> 
 
 
