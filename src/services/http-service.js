@@ -3,7 +3,7 @@ import Axios from "axios";
 const BASE_URL =
   process.env.NODE_ENV === "production"
     ? "https://mikudstudy.netlify.app/api/"
-    : "//localhost:3030/api/";
+    : "//92.205.167.60:3030/api/";
 
 var axios = Axios.create({
   withCredentials: true,
