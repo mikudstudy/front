@@ -291,30 +291,7 @@
       </div>
     </div>
   </div>
-  <div class="contact">
-    <div class="container">
-      <div class="contact-title">
-        <h4>Contact for more information!</h4>
-      </div>
-      <form>
-        <div class="form-inp">
-          <label>Futll Name</label>
-          <input type="text" name="" placeholder="Name">
-        </div>
-        <div class="form-inp">
-          <label>Email Address</label>
-          <input type="email" name="" placeholder="Email">
-        </div>
-        <div class="form-inp">
-          <label>Phone</label>
-          <input type="tel" name="" placeholder="Phone">
-        </div>
-        <div class="about-btn">
-          <button class="btn-main">Send</button>
-        </div>
-      </form>
-    </div>
-  </div>
+  <contactUs></contactUs>
   <div class="follow">
       <div class="container">
           <div class="follow-main">
@@ -342,6 +319,7 @@
   <!-- <footer></footer> -->
 </template>
 <script>
+import contactUs from '../../components/landing/contactUs.vue';
 import landingHeader from '../../components/landing/header.vue';
 import footer from '../../components/landing/footer.vue';
 
@@ -349,6 +327,7 @@ export default {
   components: {
     landingHeader,
     footer,
+    contactUs
   },
   data: () => {
     return {
@@ -364,12 +343,11 @@ export default {
 
   },
   mounted(){
-    console.log('mount');
     $('.testi-slider').slick({
     dots: false,
     infinite: true,
     autoplay: false,
-    autoplaySpeed: 6000,
+    autoplaySpeed: 6000,  
     speed: 800,
     slidesToShow: 1,
     adaptiveHeight: true
